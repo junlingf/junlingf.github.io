@@ -27,8 +27,9 @@
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 45%;
-    margin-right: 20px;
+    float: left;
+    margin-right: 5px;
+    width: 47%;
     transition-duration: 0.1s;
 }
 .home-button-post:hover{
@@ -46,8 +47,9 @@
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 45%;
-    margin-left: 20px;
+    margin-left: 5px;
+    width: 47%;
+    float: right;
     transition-duration: 0.1s;
 }
 .home-button-attend:hover{
@@ -69,6 +71,7 @@
     transition-duration: 0.1s;
     width: 100%;
     transition-duration: 0.1s;
+    margin-top: 15px;
 }
 .home-button-help:hover{
     background-color: white;
@@ -76,7 +79,9 @@
 }
 
 .home-button-wrapper{
-    width: 95%;
+    left: 10px;
+    right: 10px;
+    width: 100%;
     bottom: 10px;
-    position: relative;
+    position: positive;
 }
