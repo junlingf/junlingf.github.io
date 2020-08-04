@@ -8,7 +8,7 @@
 }
 
 
-section{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ section{
     background-color: #040d15 !important;
 }
 
-.custom-btn1{
+a{
     position: relative;
     display: inline-block;
     padding: 24px 72px ;
@@ -32,22 +32,11 @@ section{
     background:linear-gradient(90deg, #0162c8, #55e7fc);
 }
 
-.custom-btn2{
-    position: relative;
-    display: inline-block;
-    padding: 24px 72px ;
-    margin: 20px ;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 40px;
-    letter-spacing: 4px;
-    border-radius: 80px;
-    overflow: hidden;
+a:nth-child(2){
     background:linear-gradient(90deg, #755bea, #ff72c0);
 }
 
-.custom-span{
+span{
     position: absolute;
     background: #fff;
     transform: translate(-50%, -50%);
